@@ -22,7 +22,7 @@ def get_ollama_response(prompt, server_ip, model):
 
 if __name__ == '__main__':
     server_ip = 'homews.home.local'  # Replace with your server IP or hostname
-    model_name = 'deepseek-coder-v2'            # Replace with your model name
+    model_name = 'llama3'            # Replace with your model name
     while True:
         user_input = input("Enter your prompt (or type 'exit' to quit): ")
         if user_input.lower() == 'exit':
